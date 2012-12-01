@@ -1,4 +1,5 @@
 #piRadio
+![pi logo](https://raw.github.com/matthiasleitner/piRadio/master/public/img/logo.png)
 
 ## Overview
 **piRadio** is a webinterface for controlling the playback of radio streams with the omxplayer on the raspberry pi.
@@ -23,6 +24,9 @@ Add new radio stations to **radiostations.coffee**
 ## Many Thanks
 
 Thanks to [daniel-j](https://github.com/daniel-j) for inspiration from his [omxradio](https://github.com/daniel-j/omxradio) and [rikkertkoppes](https://github.com/rikkertkoppes) for his [omxcontrol](https://github.com/rikkertkoppes/omxcontrol) which does all the communication with [omxplayer](http://elinux.org/Omxplayer)
+
+
+![screenshot](https://raw.github.com/matthiasleitner/piRadio/master/screenshot.jpg)
 
 
 
