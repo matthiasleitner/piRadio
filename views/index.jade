@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  .container
+    .row.header
+      .span2
+        .logo
+        h1="music"
+      .span6
+        .playback-controlls(class=activeRadioStadion ? "" : "hide")
+          i.icon-pause
+    .row
+      .span2
+        h3="radio"
+  
+        ul.nav.nav-pills.nav-stacked#radio-stations
+          each rs in radiostations
+            li("data-url"=rs.url, class=((activeRadioStadion == rs.url) ? "active" : ""))
+              a(href="#")= rs.title
+

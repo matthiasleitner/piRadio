@@ -1,0 +1,14 @@
+block templates
+  #templates.hide
+    table
+      tr
+        td {{{icon}}}
+        td {{title}}
+        td
+          a.btn.btn-small.btn-primary(href='/send-to-kindle?url={{sendToKindleURL}}')
+            i.icon-external-link
+            | Send to kindle
+        td
+          a.btn.btn-small(href='{{downloadURL}}')
+            i.icon-download-alt
+            | Download
